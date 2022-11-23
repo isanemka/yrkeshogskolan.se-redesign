@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/* For laptop screens and bigger */
+@media screen and (max-width: 1920px) {
+
+}
+
+/* For tablet sized screens */
+@media screen and (max-width: 768px) {
+
+}
+
+/* For smartphone sized screens */
+@media screen and (max-width: 480px) {
+
+}
