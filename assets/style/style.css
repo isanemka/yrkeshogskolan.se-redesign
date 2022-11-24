@@ -35,12 +35,10 @@ header {
     justify-content: center;
     align-items: center;
     background-color: rgb(70, 170, 140);
-    
 }
 
 .menu > li {
     display: flex;
-    margin: 0 1rem;
     overflow: hidden;
     justify-content: center;
     margin: 0;
@@ -121,9 +119,6 @@ header {
     transform: rotate(-10220deg);
 }
 
-
-
-
 /* For laptop screens and bigger */
 @media screen and (max-width: 1920px) {
 
@@ -138,6 +133,10 @@ header {
 @media screen and (max-width: 480px) {
     header {
         height: var(--smallscreennavheight);
+    }
+
+    .menu {
+        margin-top: var(--smallscreennavheight);
     }
 
 }
