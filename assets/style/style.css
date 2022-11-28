@@ -119,6 +119,27 @@ header {
     transform: rotate(-10220deg);
 }
 
+.sibling-fade {
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: center; 
+}
+
+.sibling-fade button {
+    border: none; 
+    color: black;
+    padding: 15px;
+    margin: 5px;
+    width: 300px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    transition-duration: 0.3s;
+}
+
+.sibling-fade:hover span:not(:hover){
+    opacity: 0.5;
+}
+
 /* For laptop screens and bigger */
 @media screen and (max-width: 1920px) {
 
@@ -126,7 +147,9 @@ header {
 
 /* For tablet sized screens */
 @media screen and (max-width: 768px) {
-
+    .sibling-fade {
+        
+    }
 }
 
 /* For smartphone sized screens */
