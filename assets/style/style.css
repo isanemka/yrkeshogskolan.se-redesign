@@ -163,3 +163,14 @@ header {
     }
 
 }
+.footer {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: auto;
+    width: 100vw;
+    background-color: black;
+    color: #FFF;
+    text-align: center;
+}
+
