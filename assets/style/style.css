@@ -103,7 +103,7 @@ header {
     height: 2.5em;
     padding: 0.5em;
     transition: all 0.5s;
-    }
+}
 
 #menu-toggle:checked + .menu-button-container .menu-button::before {
     margin-top: 0px;
@@ -140,6 +140,63 @@ header {
     opacity: 0.5;
 }
 
+.footer {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    padding-top: 20px;
+    height: auto;
+    width: 100vw;
+    background-color: black;
+    color: #FFF;
+    text-align: center;
+}
+
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+
+    border-radius: 50%;
+
+}
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+
+    transition: color .4s ease;
+
+}
+
+.socials a:hover i{
+    color:rgb(70, 170, 140) ;
+}
+.footer-bottom{
+    display: flex;
+    background: #000;
+    width: 100vw;
+    padding: 20px;
+    padding-bottom: 40px;
+    justify-content: space-between;
+    
+}
+.footer-menu a{
+    text-decoration: none ;
+    color: #FFF;
+    padding: 20px;
+}
 /* For laptop screens and bigger */
 @media screen and (max-width: 1920px) {
 
@@ -163,3 +220,4 @@ header {
     }
 
 }
+
