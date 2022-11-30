@@ -221,3 +221,83 @@ header {
 
 }
 
+.grid-system {
+
+    display: grid;
+
+    justify-items: center;
+
+    grid-template-columns: repeat(5, 1fr);
+    
+    
+
+}
+
+
+
+.grid-system div {
+
+    margin: 1rem;
+
+    justify-self: center;
+
+    border-radius: 50%;
+
+    background-color: none;
+
+    height: 154px;
+
+    width: 154px;
+
+    
+
+
+}
+
+
+.container {
+    position: relative;
+    width: 50%;
+    justify-self: center;
+    background-image: url(assets\images\bygg.png);
+  }
+  
+  .image {
+    
+    opacity: 1;
+    border-radius: 50%;
+    display: block;
+        /* width: 100%;
+        height: auto; */
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    margin:auto;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: none;
+    color: black;
+    font-size: 12px;
+    top: 75%
+    
+  }
+
