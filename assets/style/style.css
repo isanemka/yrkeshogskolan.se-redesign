@@ -1,5 +1,5 @@
 :root {
-    --bigscreennavheight: 4rem;
+    --bigscreennavheight: 6rem;
     --smallscreennavheight: 3rem;
     --headercolor: rgb(70, 170, 140);
     --activecolor: rgb(44, 102, 85); 
@@ -23,8 +23,14 @@ header {
     background-color: var(--headercolor);
     color: #FFF;
     height: var(--bigscreennavheight);
-    padding: 1rem;
+    padding: 2rem;
 }
+
+.logo {
+    width: 40ch;
+    height: 20ch;
+    margin-top:0ch;
+    }
 
 .menu {
     position: absolute;
