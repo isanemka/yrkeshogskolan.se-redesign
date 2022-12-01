@@ -23,7 +23,18 @@ header {
     background-color: var(--headercolor);
     color: #FFF;
     height: var(--bigscreennavheight);
-    padding: 1rem;
+    padding: 2rem;
+}
+
+.logo {
+    width: 40ch;
+    height: 20ch;
+    margin-top:0ch;
+    }
+
+.search {
+margin:left;
+margin-block-end: 0ch;
 }
 
 .menu {
