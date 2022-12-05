@@ -146,25 +146,24 @@ header {
     transform: rotate(-10220deg);
 }
 
+/* start - För vägledare */
 main.m-guide {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px 0px 10px 10px;
-    margin: 20px;
+    padding: 2px;
+    margin: 10px;
     text-align: left;
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction: row; */
-    /* position: relative; */
+    flex-direction: row;
+    position: relative;
     
 }
 div.d-guide {
-    margin: 10px;
-    width: 70%;
+    width: 90%;
     font-size: 100%;
-    padding: 20px;
-    /* position: relative; */
-
-    
+    text-align: left;
+    position: relative;
+    top: auto;
 }
 .name-guide {
     font-size: 2em;
@@ -175,9 +174,8 @@ div.d-guide {
 }
 p.p-guide {
     font-size: 1em;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
-
 a.a-guide:link {
     color: #470ae2;
     font-size: 15px;
@@ -191,11 +189,14 @@ a.a-guide:hover {
     font-size: 110%;
 }
 img.align-right {
+    padding: 1px;
     float: right;
-    margin: 15px;
-    padding: 50px;
-    
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    margin: 5px;
 }
+/* Slut - För vägledare */
 
 .sibling-fade {
     display: flex;
@@ -476,6 +477,3 @@ img.align-right {
     }
 
 }
-
-
-
