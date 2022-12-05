@@ -36,9 +36,6 @@ header {
     margin-top:0ch;
 }
 
-.search {
-
-}
 
 .search input[type=submit] {
     background-color: var(--activecolor);
@@ -147,6 +144,57 @@ header {
 #menu-toggle:checked + .menu-button-container .menu-button::after {
     margin-top: 0px;
     transform: rotate(-10220deg);
+}
+
+main.m-guide {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 0px 10px 10px;
+    margin: 20px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    /* position: relative; */
+    
+}
+div.d-guide {
+    margin: 10px;
+    width: 70%;
+    font-size: 100%;
+    padding: 20px;
+    /* position: relative; */
+
+    
+}
+.name-guide {
+    font-size: 2em;
+    padding: 20px;
+}
+.preamble-guide {
+    font-size: 1.5em;
+}
+p.p-guide {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a.a-guide:link {
+    color: #470ae2;
+    font-size: 15px;
+    float: left;
+    margin-left: 20px;
+}
+a.a-guide:visited {
+    color: rgb(233, 28, 38);
+}
+a.a-guide:hover {
+    font-size: 110%;
+}
+img.align-right {
+    float: right;
+    margin: 15px;
+    padding: 50px;
+    
 }
 
 .sibling-fade {
