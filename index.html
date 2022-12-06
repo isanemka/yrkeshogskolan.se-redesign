@@ -10,95 +10,94 @@
   <script src="https://kit.fontawesome.com/601324f7cb.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header>
-    <a href="/index.html"><img src="/assets/images/Logo.png" alt="Logo" class="logo"></a>
-    <div></div>
-    <form action="http://www.example.org/search.php" class="search">
-      <input type="search" name="search" placeholder=" Sök (endast program)">
-      <input type="submit" value="Sök">
-    </form>
-    <input id="menu-toggle" type="checkbox">
-    <label class='menu-button-container' for="menu-toggle">
-    <div class='menu-button'></div>
-    </label>
-    <ul class="menu">
-      <li class="active"><a href="/index.html">Hitta utbildning</a></li>
-      <li><a href="/about.html">Om yrkeshögskolan</a></li>
-      <li><a href="/guide_test.html">För vägledare</a></li>
-      <li><a href="#">För arbetsgivare</a></li>
-      <li><a href="#">Kontakta oss</a></li>
-      <li><a href="#">Om webbplatsen</a></li>
-    </ul>
-  </header>
-  
-  <main>
-    <div class="sibling-fade">
-      <span><button onclick="window.location.href='https://yrkeshogskolan.se/hitta-utbildning/sok/';"><b> Program </b> <br> Från 100 YH-poäng</button></span>
-      <span><button onclick="window.location.href='https://yrkeshogskolan.se/korta-utbildningar/';"><b> Kurser </b> <br> Upp till 99 YH-poäng></button></span>
-      <span><button onclick="window.location.href='https://yrkeshogskolan.se/yh-flex/';"><b>YH-flex </b> <br> Snabbspår till examen</button></span>
-      <span><button onclick="window.location.href='https://yrkeshogskolan.se/enstaka-kurser/';"><b> Enstaka kurser </b> <br> Ansök till en del av en YH-untbildning</button></span>
-      <!-- <span><button onclick="window.location.href='https://yrkeshogskolan.se/uppdragsutbildningar/';"><b> Uppdragsutbildningar</b> <br>För företag och andra arbetsgivare</button></span>           -->
-    </div>             
-  </main>
+  <div id="body-relative">
+    <div id="body-content">
 
-  <div class=grid-system>
-    <div class="container">
-        <img src="assets\images\bygg.png" alt="bygg" >
-      
-      <div class="middle">
+      <header>
+        <a href="/index.html"><img src="/assets/images/Logo.png" alt="Logo" class="logo"></a>
+        <div></div>
+        <form action="http://www.example.org/search.php" class="search">
+          <input type="search" name="search" placeholder=" Sök (endast program)">
+          <input type="submit" value="Sök">
+        </form>
+        <input id="menu-toggle" type="checkbox">
+        <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button'></div>
+        </label>
+        <ul class="menu">
+          <li class="active"><a href="/index.html">Hitta utbildning</a></li>
+          <li><a href="/about.html">Om yrkeshögskolan</a></li>
+          <li><a href="/guide.html">För vägledare</a></li>
+          <li><a href="#">För arbetsgivare</a></li>
+          <li><a href="#">Kontakta oss</a></li>
+          <li><a href="#">Om webbplatsen</a></li>
+        </ul>
+      </header>
+
+      <main>
+        <div class="sibling-fade">
+          <span><button onclick="window.location.href='https://yrkeshogskolan.se/hitta-utbildning/sok/';"><b> Program </b> <br> Från 100 YH-poäng</button></span>
+          <span><button onclick="window.location.href='https://yrkeshogskolan.se/korta-utbildningar/';"><b> Kurser </b> <br> Upp till 99 YH-poäng></button></span>
+          <span><button onclick="window.location.href='https://yrkeshogskolan.se/yh-flex/';"><b>YH-flex </b> <br> Snabbspår till examen</button></span>
+          <span><button onclick="window.location.href='https://yrkeshogskolan.se/enstaka-kurser/';"><b> Enstaka kurser </b> <br> Ansök till en del av en YH-untbildning</button></span>
+          <!-- <span><button onclick="window.location.href='https://yrkeshogskolan.se/uppdragsutbildningar/';"><b> Uppdragsutbildningar</b> <br>För företag och andra arbetsgivare</button></span>           -->
+        </div>             
+      </main>
+
+    <div class=grid-system>
+      <div class="container">
+        <img src="assets\images\bygg.png" alt="bygg"> 
+        <div class="middle">
         <div class="text">
           <h2>Bygg</h2>
         </div>
-      </div>
-    </div>
-    <div class="container">
-      <img src="assets\images\datait.png" alt="datait" class="image" >
-      <div class="middle">
-        <div class="text">
-          <h2>Data/IT</h2>
         </div>
       </div>
-    </div>
-
-
-
-    <div class="container" >
-      <img src="assets\images\djur.png" alt="djur" class="image" >
-      <div class="middle">
-        <div class="text">
-          <h2>Lantbruk</h2>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="container">
-      <img src="assets\images\ekonomi.png" alt="ekonomi" class="image">
-      <div class="middle">
-        <div class="text">
-          <h2>Ekonomi</h2>
-        </div>
-      </div>
-    </div>
-  
-    
-    <div class="container" >
-
-      <img src="assets\images\kropp.png" alt="kropp" class="image" >
-      <div class="middle">
-      <div class="text"><h2>Friskvård</h2>
-      </div>
-      </div>
-    </div>
 
       <div class="container">
-    <img src="assets\images\hotell.png" alt="hotell" class="image" >
-    <div class="middle">
-      <div class="text">
-        <h2>Hotell</h2>
+        <img src="assets\images\datait.png" alt="datait" class="image" >
+        <div class="middle">
+          <div class="text">
+            <h2>Data/IT</h2>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
+
+      <div class="container" >
+        <img src="assets\images\djur.png" alt="djur" class="image" >
+        <div class="middle">
+          <div class="text">
+            <h2>Lantbruk</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <img src="assets\images\ekonomi.png" alt="ekonomi" class="image">
+        <div class="middle">
+          <div class="text">
+            <h2>Ekonomi</h2>
+          </div>
+        </div>
+      </div>
+  
+      <div class="container" >
+        <img src="assets\images\kropp.png" alt="kropp" class="image" >
+        <div class="middle">
+          <div class="text">
+            <h2>Friskvård</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <img src="assets\images\hotell.png" alt="hotell" class="image" >
+        <div class="middle">
+          <div class="text">
+            <h2>Hotell</h2>
+          </div>
+        </div>
+      </div>
 
       <div class="container">
         <img src="assets\images\social.png" alt="social" class="image">
@@ -145,7 +144,6 @@
         </div>
       </div>
 
-      
       <div class="container">
         <img src="assets\images\saftey.png" alt="saftey" class="image">
         <div class="middle">
@@ -155,7 +153,6 @@
         </div>
       </div>
 
-      
       <div class="container">
         <img src="assets\images\teknik.png" alt="teknik" class="image">
         <div class="middle">
@@ -165,7 +162,6 @@
         </div>
       </div>
 
-      
       <div class="container">
         <img src="assets\images\transport.png" alt="transport" class="image">
         <div class="middle">
@@ -175,7 +171,6 @@
         </div>
       </div>
 
-      
       <div class="container">
         <img src="assets\images\övrigt.png" alt="övrigt" class="image">
         <div class="middle">
@@ -185,22 +180,22 @@
         </div>
       </div>
     </div>
-  <footer>
-    <div class="footer">
+
+    <footer>
       <Img src="https://www.yrkeshogskolan.se/globalassets/logotyper/myh_inv_rgb_darker_justerad.svg" width="75"/>
       <p>Myndigheten för yrkeshögskolan står bakom yrkeshogskolan.se.</p>
-        <div class="footer-bottom">
-          <div class="footer-menu">
-            <p>Copyright &copy;2022 Basgrupp 1</p>
-          </div>
-          <div class="footer-menu">
-            <ul class="socials">
-              <li><a href="https://www.facebook.com/yrkeshogskolan/"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="https://twitter.com/yrkeshogskolan"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="https://www.youtube.com/channel/UCV31ljfp4s6ktgROLCS4Tsg"><i class="fa fa-youtube"></i></a></li>
-              <li><a href="https://www.linkedin.com/company/myndigheten-f-r-yrkesh-gskolan/?originalSubdomain=se"><i class="fa fa-linkedin-square"></i></a></li>
-            </ul>
-          </div>
+      <div class="footer-bottom">
+        <div class="footer-menu">
+          <p>Copyright &copy;2022 Basgrupp 1</p>
+        </div>
+        <div class="footer-menu">
+          <ul class="socials">
+            <li><a href="https://www.facebook.com/yrkeshogskolan/"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/yrkeshogskolan"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCV31ljfp4s6ktgROLCS4Tsg"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/myndigheten-f-r-yrkesh-gskolan/?originalSubdomain=se"><i class="fa fa-linkedin-square"></i></a></li>
+          </ul>
+        </div>
           <div class="footer-menu">
             <a href="#">Kontakt</a>
             <div class="dropup">
@@ -216,7 +211,9 @@
             </div>
           </div> 
         </div>
-    </div> 
-  </footer>
+      </footer>
+    </div>
+  </div>
+
 </body>
 </html>

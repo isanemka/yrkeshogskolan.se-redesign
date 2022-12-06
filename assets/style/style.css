@@ -14,6 +14,16 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+#body-relative {
+    position: relative;
+    min-height: 100vh;
+    
+}
+
+#body-content {
+    padding-bottom: 280px;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -155,14 +165,12 @@ main.m-guide {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    position: relative;
     
 }
 div.d-guide {
     width: 90%;
     font-size: 100%;
     text-align: left;
-    position: relative;
     top: auto;
 }
 .name-guide {
@@ -196,6 +204,7 @@ img.align-right {
     vertical-align: middle;
     margin: 5px;
 }
+
 /* Slut - För vägledare */
 
 .sibling-fade {
@@ -242,7 +251,6 @@ img.align-right {
     position: relative;
     width: 50%;
     justify-self: center;
-    background-image: url(assets\images\bygg.png);
 }
 
 .image {
@@ -324,12 +332,12 @@ img.align-right {
     background-color: var(--activecolor);
 }
 
-.footer {
+footer {
     position: absolute;
     bottom: 0px;
     padding-top: 20px;
-    height: auto;
-    width: 100vw;
+    height: 280px;
+    width: 100%;
     background-color: var(--footercolor);
     color: #000;
     text-align: center;
@@ -374,9 +382,10 @@ img.align-right {
     display: flex;
     background: var(--footercolor);
     width: 95%;
+    /* margin-bottom: 208px; */
     padding: 20px;
     margin: auto;
-    padding-bottom: 40px;
+    /* padding-bottom: 40px; */
     justify-content: space-between;
 }
 
@@ -429,6 +438,12 @@ img.align-right {
 
 }
 
+@media screen and (max-width: 1024px) {
+    .grid-system {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 /* For tablet sized screens */
 @media screen and (max-width: 768px) {
 
@@ -440,6 +455,10 @@ img.align-right {
 
     .search input[type=search] {
         width: 38px;
+    }
+
+    .grid-system {
+        grid-template-columns: repeat(2, 1fr);
     }
 
     /* For about page only */
