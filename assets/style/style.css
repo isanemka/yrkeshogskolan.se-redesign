@@ -14,6 +14,16 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+#body-relative {
+    position: relative;
+    min-height: 100vh;
+    
+}
+
+#body-content {
+    padding-bottom: 280px;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -36,9 +46,6 @@ header {
     margin-top:0ch;
 }
 
-.search {
-
-}
 
 .search input[type=submit] {
     background-color: var(--activecolor);
@@ -149,6 +156,57 @@ header {
     transform: rotate(-10220deg);
 }
 
+/* start - För vägledare */
+main.m-guide {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2px;
+    margin: 10px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+div.d-guide {
+    width: 90%;
+    font-size: 100%;
+    text-align: left;
+    top: auto;
+}
+.name-guide {
+    font-size: 2em;
+    padding: 20px;
+}
+.preamble-guide {
+    font-size: 1.5em;
+}
+p.p-guide {
+    font-size: 1em;
+    
+}
+a.a-guide:link {
+    color: #470ae2;
+    font-size: 15px;
+    float: left;
+    margin-left: 20px;
+}
+a.a-guide:visited {
+    color: rgb(233, 28, 38);
+}
+a.a-guide:hover {
+    font-size: 110%;
+}
+img.align-right {
+    padding: 1px;
+    float: right;
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+/* Slut - För vägledare */
+
 .sibling-fade {
     display: flex;
     flex-wrap: wrap;   
@@ -193,7 +251,6 @@ header {
     position: relative;
     width: 50%;
     justify-self: center;
-    background-image: url(assets\images\bygg.png);
 }
 
 .image {
@@ -275,12 +332,12 @@ header {
     background-color: var(--activecolor);
 }
 
-.footer {
+footer {
     position: absolute;
     bottom: 0px;
     padding-top: 20px;
-    height: auto;
-    width: 100vw;
+    height: 280px;
+    width: 100%;
     background-color: var(--footercolor);
     color: #000;
     text-align: center;
@@ -325,9 +382,10 @@ header {
     display: flex;
     background: var(--footercolor);
     width: 95%;
+    /* margin-bottom: 208px; */
     padding: 20px;
     margin: auto;
-    padding-bottom: 40px;
+    /* padding-bottom: 40px; */
     justify-content: space-between;
 }
 
@@ -380,6 +438,12 @@ header {
 
 }
 
+@media screen and (max-width: 1024px) {
+    .grid-system {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 /* For tablet sized screens */
 @media screen and (max-width: 768px) {
 
@@ -391,6 +455,10 @@ header {
 
     .search input[type=search] {
         width: 38px;
+    }
+
+    .grid-system {
+        grid-template-columns: repeat(2, 1fr);
     }
 
     /* For about page only */
@@ -428,6 +496,3 @@ header {
     }
 
 }
-
-
-

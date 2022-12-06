@@ -10,85 +10,89 @@
   <script src="https://kit.fontawesome.com/601324f7cb.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header>
-    <a href="/index.html"><img src="/assets/images/Logo.png" alt="Logo" class="logo"></a>
-    <div></div>
-    <form action="http://www.example.org/search.php" class="search">
-      <input type="search" name="search" placeholder=" Sök (endast program)">
-      <input type="submit" value="Sök">
-    </form>
-    <input id="menu-toggle" type="checkbox">
-    <label class='menu-button-container' for="menu-toggle">
-    <div class='menu-button'></div>
-    </label>
-    <ul class="menu">
-      <li class="active"><a href="/index.html">Hitta utbildning</a></li>
-      <li><a href="/about.html">Om yrkeshögskolan</a></li>
-      <li><a href="/guide.html">För vägledare</a></li>
-      <li><a href="#">För arbetsgivare</a></li>
-      <li><a href="#">Kontakta oss</a></li>
-      <li><a href="#">Om webbplatsen</a></li>
-    </ul>
-  </header>
+  <div id="body-relative">
+    <div id="body-content">
+      <header>
+        <a href="/index.html"><img src="/assets/images/Logo.png" alt="Logo" class="logo"></a>
+        <div></div>
+        <form action="http://www.example.org/search.php" class="search">
+          <input type="search" name="search" placeholder=" Sök (endast program)">
+          <input type="submit" value="Sök">
+        </form>
+        <input id="menu-toggle" type="checkbox">
+        <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button'></div>
+        </label>
+        <ul class="menu">
+          <li class="active"><a href="/index.html">Hitta utbildning</a></li>
+          <li><a href="/about.html">Om yrkeshögskolan</a></li>
+          <li><a href="/guide.html">För vägledare</a></li>
+          <li><a href="#">För arbetsgivare</a></li>
+          <li><a href="#">Kontakta oss</a></li>
+          <li><a href="#">Om webbplatsen</a></li>
+        </ul>
+      </header>
   
-  <main>
-    <div class="about">
-      <h1>Om yrkeshögskolan</h1>
-      <p>YH-utbildningar finns inom många olika branscher och över hela landet. Här kan du se en kort video och läsa mer om vilka regler som gäller och vilka möjligheter som finns.</p>
-    </div>
-    <section class="video-about">
-      <iframe src="https://www.youtube.com/embed/iSa-YkIR9is" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </section>
-    <div class="sibling-fade-about">
-      <span><button onclick="window.location.href='https://www.yrkeshogskolan.se/om-yrkeshogskolan/utbildningarna-matchar-arbetslivets-behov/';">Kort om yrkeshögskolan</button></span>
-      <span><button onclick="window.location.href='https://www.yrkeshogskolan.se/om-yrkeshogskolan/vagledning/';">Vägledning</button></span>
-      <span><button onclick="window.location.href='https://www.yrkeshogskolan.se/om-yrkeshogskolan/ansokan-och-antagning/';">Ansökan och antagning</button></span>
-      <span><button onclick="window.location.href='https://www.yrkeshogskolan.se/om-yrkeshogskolan/ansokan-och-antagning/reell-kompetens--validera-dina-erfarenheter/';">Reell kompetens</button></span>
-      <span><button onclick="window.location.href='https://www.yrkeshogskolan.se/om-yrkeshogskolan/langd-poang-och-examen/';">Längd, poäng och examen</button></span>
-      <span><button onclick="window.location.href='https://www.yrkeshogskolan.se/om-yrkeshogskolan/larande-i-arbete-LIA/';">Praktik - Lärande i arbete (LIA)</button></span>          
-      <span><button onclick="window.location.href='https://www.yrkeshogskolan.se/om-yrkeshogskolan/distansutbildning/';">Distansutbildning</button></span>          
-      <span><button onclick="window.location.href='https://www.yrkeshogskolan.se/om-yrkeshogskolan/restplatser/';">Sen anmälan</button></span>          
-      <span><button onclick="window.location.href='https://www.yrkeshogskolan.se/om-yrkeshogskolan/studiemedel-studieavgifter/';">Studiemedel och studieavgifter</button></span>          
-      <span><button onclick="window.location.href='https://www.yrkeshogskolan.se/om-yrkeshogskolan/studerandeinflytande/';">Studerandeinflytande</button></span>          
-      <span><button onclick="window.location.href='https://www.yrkeshogskolan.se/om-yrkeshogskolan/om-du-ser-brister-i-din-utbildning/';">Om du ser brister i din utbildning</button></span>          
-      <span><button onclick="window.location.href='https://www.yrkeshogskolan.se/om-yrkeshogskolan/pedagogiskt-stod-och-tillganglighet/';">Pedagogiskt stöd och tillgänglighet</button></span>          
-      <span><button onclick="window.location.href='https://www.yrkeshogskolan.se/om-yrkeshogskolan/svenska-med-yrkesinriktning/';">Svenska med yrkesinriktning</button></span>          
-      <span><button onclick="window.location.href='https://www.yrkeshogskolan.se/om-yrkeshogskolan/europass/';">Europass</button></span>          
-    </div> 
-  </main>
-
-  <footer>
-    <div class="footer">
-      <Img src="https://www.yrkeshogskolan.se/globalassets/logotyper/myh_inv_rgb_darker_justerad.svg" width="75"/>
-      <p>Myndigheten för yrkeshögskolan står bakom yrkeshogskolan.se.</p>
-        <div class="footer-bottom">
-          <div class="footer-menu">
-            <p>Copyright &copy;2022 Basgrupp 1</p>
-          </div>
-          <div class="footer-menu">
-            <ul class="socials">
-              <li><a href="https://www.facebook.com/yrkeshogskolan/"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="https://twitter.com/yrkeshogskolan"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="https://www.youtube.com/channel/UCV31ljfp4s6ktgROLCS4Tsg"><i class="fa fa-youtube"></i></a></li>
-              <li><a href="https://www.linkedin.com/company/myndigheten-f-r-yrkesh-gskolan/?originalSubdomain=se"><i class="fa fa-linkedin-square"></i></a></li>
-            </ul>
-          </div>
-          <div class="footer-menu">
-            <a href="#">Kontakt</a>
-            <div class="dropup">
-              <button class="dropbtn">Språk</button>
-              <div class="dropup-lang">
-                <a href="#">Arabiska</a>
-                <a href="#">Finska</a>
-                <a href="#">Somaliska</a>
-                <a href="#">Engelska</a>
-                <a href="#">Spanska</a>
-                <a href="#">Ukrainska</a>
-              </div>
-            </div>
-          </div> 
+      <main>
+        <div class="about">
+          <h1>Om yrkeshögskolan</h1>
+          <p>YH-utbildningar finns inom många olika branscher och över hela landet. Här kan du se en kort video och läsa mer om vilka regler som gäller och vilka möjligheter som finns.</p>
         </div>
-    </div> 
-  </footer>
+        <section class="video-about">
+          <iframe src="https://www.youtube.com/embed/iSa-YkIR9is" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <div class="sibling-fade-about">
+          <span><button onclick="window.location.href='https://www.yrkeshogskolan.se/om-yrkeshogskolan/utbildningarna-matchar-arbetslivets-behov/';">Kort om yrkeshögskolan</button></span>
+          <span><button onclick="window.location.href='https://www.yrkeshogskolan.se/om-yrkeshogskolan/vagledning/';">Vägledning</button></span>
+          <span><button onclick="window.location.href='https://www.yrkeshogskolan.se/om-yrkeshogskolan/ansokan-och-antagning/';">Ansökan och antagning</button></span>
+          <span><button onclick="window.location.href='https://www.yrkeshogskolan.se/om-yrkeshogskolan/ansokan-och-antagning/reell-kompetens--validera-dina-erfarenheter/';">Reell kompetens</button></span>
+          <span><button onclick="window.location.href='https://www.yrkeshogskolan.se/om-yrkeshogskolan/langd-poang-och-examen/';">Längd, poäng och examen</button></span>
+          <span><button onclick="window.location.href='https://www.yrkeshogskolan.se/om-yrkeshogskolan/larande-i-arbete-LIA/';">Praktik - Lärande i arbete (LIA)</button></span>          
+          <span><button onclick="window.location.href='https://www.yrkeshogskolan.se/om-yrkeshogskolan/distansutbildning/';">Distansutbildning</button></span>          
+          <span><button onclick="window.location.href='https://www.yrkeshogskolan.se/om-yrkeshogskolan/restplatser/';">Sen anmälan</button></span>          
+          <span><button onclick="window.location.href='https://www.yrkeshogskolan.se/om-yrkeshogskolan/studiemedel-studieavgifter/';">Studiemedel och studieavgifter</button></span>          
+          <span><button onclick="window.location.href='https://www.yrkeshogskolan.se/om-yrkeshogskolan/studerandeinflytande/';">Studerandeinflytande</button></span>          
+          <span><button onclick="window.location.href='https://www.yrkeshogskolan.se/om-yrkeshogskolan/om-du-ser-brister-i-din-utbildning/';">Om du ser brister i din utbildning</button></span>          
+          <span><button onclick="window.location.href='https://www.yrkeshogskolan.se/om-yrkeshogskolan/pedagogiskt-stod-och-tillganglighet/';">Pedagogiskt stöd och tillgänglighet</button></span>          
+          <span><button onclick="window.location.href='https://www.yrkeshogskolan.se/om-yrkeshogskolan/svenska-med-yrkesinriktning/';">Svenska med yrkesinriktning</button></span>          
+          <span><button onclick="window.location.href='https://www.yrkeshogskolan.se/om-yrkeshogskolan/europass/';">Europass</button></span>          
+        </div> 
+      </main>
+
+      <footer>
+        <div class="footer">
+          <Img src="https://www.yrkeshogskolan.se/globalassets/logotyper/myh_inv_rgb_darker_justerad.svg" width="75"/>
+          <p>Myndigheten för yrkeshögskolan står bakom yrkeshogskolan.se.</p>
+            <div class="footer-bottom">
+              <div class="footer-menu">
+                <p>Copyright &copy;2022 Basgrupp 1</p>
+              </div>
+              <div class="footer-menu">
+                <ul class="socials">
+                  <li><a href="https://www.facebook.com/yrkeshogskolan/"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="https://twitter.com/yrkeshogskolan"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="https://www.youtube.com/channel/UCV31ljfp4s6ktgROLCS4Tsg"><i class="fa fa-youtube"></i></a></li>
+                  <li><a href="https://www.linkedin.com/company/myndigheten-f-r-yrkesh-gskolan/?originalSubdomain=se"><i class="fa fa-linkedin-square"></i></a></li>
+                </ul>
+              </div>
+              <div class="footer-menu">
+                <a href="#">Kontakt</a>
+                <div class="dropup">
+                  <button class="dropbtn">Språk</button>
+                  <div class="dropup-lang">
+                    <a href="#">Arabiska</a>
+                    <a href="#">Finska</a>
+                    <a href="#">Somaliska</a>
+                    <a href="#">Engelska</a>
+                    <a href="#">Spanska</a>
+                    <a href="#">Ukrainska</a>
+                  </div>
+                </div>
+              </div> 
+            </div>
+        </div> 
+      </footer>
+    </div>
+  </div>
 </body>
 </html>
