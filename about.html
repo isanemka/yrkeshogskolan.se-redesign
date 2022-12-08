@@ -24,7 +24,7 @@
         </form>
         <input id="menu-toggle" type="checkbox">
         <label class='menu-button-container' for="menu-toggle">
-          <div class='menu-button'></div>
+          <span class='menu-button'></span>
         </label>
         <ul class="menu">
           <li class="active"><a href="/index.html">Hitta utbildning</a></li>
@@ -41,10 +41,10 @@
           <h1>Om yrkeshögskolan</h1>
           <p>YH-utbildningar finns inom många olika branscher och över hela landet. Här kan du se en kort video och läsa mer om vilka regler som gäller och vilka möjligheter som finns.</p>
         </div>
-        <section class="video-about">
-          <iframe src="https://www.youtube.com/embed/iSa-YkIR9is" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </section>
-        <section class="sibling-fade-about">
+        <div class="video-about">
+          <iframe src="https://www.youtube.com/embed/iSa-YkIR9is" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="sibling-fade-about">
           <span><button onclick="window.location.href='https://www.yrkeshogskolan.se/om-yrkeshogskolan/utbildningarna-matchar-arbetslivets-behov/';">Kort om yrkeshögskolan</button></span>
           <span><button onclick="window.location.href='https://www.yrkeshogskolan.se/om-yrkeshogskolan/vagledning/';">Vägledning</button></span>
           <span><button onclick="window.location.href='https://www.yrkeshogskolan.se/om-yrkeshogskolan/ansokan-och-antagning/';">Ansökan och antagning</button></span>
@@ -59,16 +59,16 @@
           <span><button onclick="window.location.href='https://www.yrkeshogskolan.se/om-yrkeshogskolan/pedagogiskt-stod-och-tillganglighet/';">Pedagogiskt stöd och tillgänglighet</button></span>          
           <span><button onclick="window.location.href='https://www.yrkeshogskolan.se/om-yrkeshogskolan/svenska-med-yrkesinriktning/';">Svenska med yrkesinriktning</button></span>          
           <span><button onclick="window.location.href='https://www.yrkeshogskolan.se/om-yrkeshogskolan/europass/';">Europass</button></span>          
-        </section> 
+        </div> 
       </main>
 
       <footer>
-        <Img src="https://www.yrkeshogskolan.se/globalassets/logotyper/myh_inv_rgb_darker_justerad.svg" width="75"/>
+        <Img src="https://www.yrkeshogskolan.se/globalassets/logotyper/myh_inv_rgb_darker_justerad.svg" width="75" alt="Logotyp på Myndigheten för yrkeshögskolan">
         <p>Myndigheten för yrkeshögskolan står bakom yrkeshogskolan.se.</p>
         <div class="dropup">
-          <button class="dropbtn">
-            <a href="#">Ta kontakt</a>
-          </button>
+          <div class="dropup">
+            <button class="dropbtn">Ta kontakt</button>
+          </div>
         </div>
         <div class="footer-bottom">
           <div class="footer-menu">

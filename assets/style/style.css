@@ -242,7 +242,6 @@ img.align-right {
     margin: 1rem;
     justify-self: center;
     border-radius: 50%;
-    background-color: none;
     height: 154px;
     width: 154px;
 }
@@ -269,7 +268,6 @@ img.align-right {
     top: 70%;
     left: 30%;
     transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     text-align: center;
 }
 
@@ -282,7 +280,6 @@ img.align-right {
 }
 
 .text {
-    background-color: none;
     color: black;
     font-size: 12px;
     top: 75%
