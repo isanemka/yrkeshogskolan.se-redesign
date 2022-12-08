@@ -16,13 +16,15 @@
       <header>
         <a href="/index.html"><img src="/assets/images/Logo.png" alt="Logo" class="logo"></a>
         <div></div>
+        <div></div>
+        <div></div>
         <form action="http://www.example.org/search.php" class="search">
           <input type="search" name="search" placeholder=" Sök (endast program)">
           <input type="submit" value="Sök">
         </form>
         <input id="menu-toggle" type="checkbox">
         <label class='menu-button-container' for="menu-toggle">
-        <div class='menu-button'></div>
+          <div class='menu-button'></div>
         </label>
         <ul class="menu">
           <li class="active"><a href="/index.html">Hitta utbildning</a></li>
@@ -34,16 +36,16 @@
         </ul>
       </header>
 
-      <main>
+      <section>
         <div class="sibling-fade">
           <span><button onclick="window.location.href='https://yrkeshogskolan.se/hitta-utbildning/sok/';"><b> Program </b> <br> Från 100 YH-poäng</button></span>
           <span><button onclick="window.location.href='https://yrkeshogskolan.se/korta-utbildningar/';"><b> Kurser </b> <br> Upp till 99 YH-poäng></button></span>
           <span><button onclick="window.location.href='https://yrkeshogskolan.se/yh-flex/';"><b>YH-flex </b> <br> Snabbspår till examen</button></span>
           <span><button onclick="window.location.href='https://yrkeshogskolan.se/enstaka-kurser/';"><b> Enstaka kurser </b> <br> Ansök till en del av en YH-untbildning</button></span>
         </div>             
-      </main>
+      </section>
 
-    <div class=grid-system>
+    <main class=grid-system>
       <div class="container">
         <img src="assets\images\bygg.png" alt="bygg"> 
         <div class="middle">
@@ -170,7 +172,7 @@
         </div>
       </div>
 
-      <div class="container">
+      <div class="container last-container">
         <img src="assets\images\övrigt.png" alt="övrigt" class="image">
         <div class="middle">
           <div class="text">
@@ -178,11 +180,16 @@
           </div>
         </div>
       </div>
-    </div>
+    </main>
 
     <footer>
       <Img src="https://www.yrkeshogskolan.se/globalassets/logotyper/myh_inv_rgb_darker_justerad.svg" width="75"/>
       <p>Myndigheten för yrkeshögskolan står bakom yrkeshogskolan.se.</p>
+      <div class="dropup">
+        <button class="dropbtn">
+          <a href="#">Ta kontakt</a>
+        </button>
+      </div>
       <div class="footer-bottom">
         <div class="footer-menu">
           <p>Copyright &copy;2022 Basgrupp 1</p>
@@ -196,7 +203,6 @@
           </ul>
         </div>
           <div class="footer-menu">
-            <a href="#">Kontakt</a>
             <div class="dropup">
               <button class="dropbtn">Språk</button>
               <div class="dropup-lang">
@@ -211,8 +217,8 @@
           </div> 
         </div>
       </footer>
+
     </div>
   </div>
-
 </body>
 </html>
