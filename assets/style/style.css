@@ -246,7 +246,7 @@ header {
 }
 
 .footer {
-    position: absolute;
+    position: relative;
     bottom: 0px;
     padding-top: 20px;
     height: auto;
