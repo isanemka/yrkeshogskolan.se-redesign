@@ -506,6 +506,40 @@ footer {
     background-color: var(--activecolor);
 }
 
+/* För Kontakta oss sidan */
+
+.main-kontaktaoss {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin: 20px;
+    text-align: left;
+    display: left;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+
+.kontaktaoss {
+    width: 90%;
+    font-size: 100%;
+    text-align: left;
+}
+
+fieldset {
+    width: 360px;
+    margin-top: 20px;
+    border: 2px solid rgb(70, 170, 140);
+    line-height: 1em;
+    padding: 10px;
+}
+
+legend {
+}
+
+.Frågor {
+    padding-left: 10px;
+    position: left;
+    margin-top: 40px;
+}
 
 /* For laptop screens and bigger */
 
