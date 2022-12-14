@@ -62,7 +62,7 @@ header {
 }
 
 .search {
-margin:left;
+margin: left;
 margin-block-end: 0ch;
 }
 
@@ -169,12 +169,10 @@ margin-block-end: 0ch;
 
 /* start - för arbetsgivare */
 
-
-
 .main-arbetsgivare {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 2px;
-    margin: 20px;
+    padding: 1px;
+    margin: 10px;
     text-align: left;
     display: flex;
     flex-wrap: wrap;
@@ -194,6 +192,7 @@ h1.a-rubrik {
 }
 
 h2.underrubrik {
+    margin: 5px;
     padding: 20px;
     font-weight: lighter;
 }
@@ -206,17 +205,19 @@ h2.underrubrik {
 }
 
 .a-column2 {
-float: left;
-width: 300px;
-margin: 10px;
-padding: 20px;
+    float: left;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
 
 }
 
 .a-video {
     padding: 20px;
     text-align: right;
-    margin: 0px;
+    width: 100%;
+    height: auto;
+    margin: auto;
 }
 
 .boxar {
@@ -593,8 +594,24 @@ footer {
         float: none;
     }
 
-}
+    /* Endast för arbetsgivare sidan */
+ 
+    .footer-bottom{
+        margin: 10px auto;
+        justify-content: center;
+    }
+    
+    .footer-menu {
+        width: 100%;
+    }
 
+    .a-column1, .a-column2 {
+        width: 100%;
+    }
+
+    .a-video {
+        width: 90%;
+    }
 
 /* For iPhone 12 Pro screens */
 @media screen and (max-width: 400px) {
@@ -623,5 +640,4 @@ footer {
     .sibling-fade-about button {
         width: 300px;
     }
-
 }
