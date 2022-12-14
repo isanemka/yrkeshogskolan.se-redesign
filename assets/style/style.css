@@ -517,6 +517,51 @@ footer {
     background-color: var(--activecolor);
 }
 
+/* Till Webb */
+.webb{
+    text-align: left;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.submit{
+    width: 250px;
+    height:250px;
+    color: white;
+    margin-top: 20px;
+    margin-right: 25px;
+    background:  var(--headercolor);
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    /* box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white; */
+    transition: 0.5s;
+  }
+
+.sibling-fade-webb-submit {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;   
+    justify-content: center; 
+    margin: 30px auto;
+}
+
+.sibling-fade-webb button {
+    border: none; 
+    color: #fff;
+    background-color: var(--headercolor);
+    padding: 15px;
+    margin: 5px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    transition-duration: 0.3s;
+}
+
+.sibling-fade-webb button:hover {
+    background-color: var(--activecolor);
+}
+
 
 /* For laptop screens and bigger */
 
